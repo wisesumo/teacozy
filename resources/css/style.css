@@ -6,6 +6,7 @@ body {
   font-family: "Helvetica", serif;
   color: seashell;
   background-color: black;
+  color: seashell;
 }
 
 a {
@@ -44,6 +45,8 @@ header {
   display: block;
 }
 
+/* Main Content */
+
 .headline {
   margin-top: 90px;
 }
@@ -65,6 +68,8 @@ header {
   width: 1240px;
   text-align: center;
 }
+
+/* Tea of the month */
 
 .featured {
   width: 1000px;
@@ -121,6 +126,8 @@ header {
   margin-top: 15px;
 }
 
+/* locations */
+
 .shop-locations {
   display: flex;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
@@ -159,15 +166,28 @@ header {
   margin-left: 40px;
 }
 
-.shop-name {
-  font-size: 24px;
-  font-weight: bold;
-
-}
 
 .shop-address {
  font-size: 18px;
  line-height: 48px;
+}
+
+/* footer content */
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  height: 200px;
+}
+
+.footer-info {
+  display: block;
+  font-size: 19px;
+}
+
+.copyright {
+  text-align: left;
+  padding: 0 20px;
 }
 
 
