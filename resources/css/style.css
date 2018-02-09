@@ -15,7 +15,7 @@ a {
 
 nav {
   font-size: 22px;
-  margin-left: 20px;
+  margin-right: 30px;
 }
 
 /* Header */
@@ -34,6 +34,7 @@ header {
   border-bottom: 1px solid seashell;
   font-weight: bold;
   opacity: 0.9;
+  background-color: black;
 }
 
 
@@ -43,5 +44,79 @@ header {
   display: block;
 }
 
+.headline {
+  margin-top: 90px;
+}
+
+.mission {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+}
+
+.content {
+  background-color: black;
+  height: 104px;
+  width: 1240px;
+  text-align: center;
+}
+
+.featured {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.featured-month {
+  width:  1000px;
+  text-align: center;
+  margin: auto;
+}
+
+.featured-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0.9;
+
+}
+
+.featured-statement {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0.9;
+
+}
+
+.featured-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 
+.photo {
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.photo img {
+  display: block;
+  height: 200px;
+  width: 300px;
+
+}
+
+.caption {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
